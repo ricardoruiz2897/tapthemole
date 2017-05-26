@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="tapthemole2.tapthemole2">
+	<uses-sdk android:minSdkVersion="12" android:targetSdkVersion="12" />
+	<application android:icon="@drawable/mole" android:label="Tap the Mole">
+		<activity android:name="com.purplebrain.adbuddiz.sdk.AdBuddizActivity" android:theme="@android:style/Theme.Translucent" />
+	</application>
+	<!-- Mandatory permission -->
+	<uses-permission android:name="android.permission.INTERNET" />
+	<!-- Optional, but without them, you might get less ads and tracking could be less accurate -->
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<!-- para probrar, quitar antes de subir -->
+	<meta-data android:name="ADBUDDIZ_TEST_MODE" android:value="true" />
+</manifest>

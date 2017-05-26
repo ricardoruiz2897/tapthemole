@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/alternativemoleholes"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout1">
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="136.5dp"
+                android:layout_height="32.6dp"
+                android:layout_marginTop="0.0dp"
+                android:layout_marginLeft="8.0dp"
+                android:text="Score:  "
+                android:textSize="24dp"
+                android:textColor="#ffffffff"
+                android:typeface="normal"
+                android:textStyle="bold" />
+            <Chronometer
+                android:id="@+id/principal"
+                android:layout_width="16.8dp"
+                android:layout_height="13.0dp"
+                android:layout_marginTop="0.0dp"
+                android:visibility="invisible" />
+            <Chronometer
+                android:id="@+id/mole_move"
+                android:layout_width="39.3dp"
+                android:layout_height="32.6dp"
+                android:layout_marginTop="0.0dp"
+                android:visibility="invisible"
+                android:includeFontPadding="false" />
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="136.5dp"
+                android:layout_height="32.6dp"
+                android:layout_marginTop="0.0dp"
+                android:layout_marginLeft="0.0dp"
+                android:text="Time: 100"
+                android:textSize="24dp"
+                android:textColor="#ffffffff"
+                android:typeface="normal"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+    <TextView
+        android:id="@+id/time_over"
+        android:layout_width="223.6dp"
+        android:layout_height="32.6dp"
+        android:layout_marginTop="1.2dp"
+        android:layout_marginLeft="60.3dp"
+        android:text="New Highscore!!!!"
+        android:textSize="24dp"
+        android:textColor="#ffff0014"
+        android:typeface="normal"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+    <ImageButton
+        android:id="@+id/myButton"
+        android:layout_width="71.0dp"
+        android:layout_height="64.7dp"
+        android:src="@drawable/hole"
+        android:layout_marginTop="10px"
+        android:layout_marginLeft="113.9dp"
+        android:background="@drawable/fondo" />
+    <ImageButton
+        android:id="@+id/flechatras"
+        android:layout_width="72.5dp"
+        android:layout_height="36.2dp"
+        android:src="@drawable/flechaatras"
+        android:layout_marginTop="264.1dp"
+        android:layout_marginLeft="113.9dp"
+        android:background="@drawable/flechaatras"
+        android:visibility="invisible" />
+    <ImageButton
+        android:id="@+id/bomba1"
+        android:layout_width="89.6dp"
+        android:layout_height="64.9dp"
+        android:src="@drawable/bomba1"
+        android:background="@drawable/fondo"
+        android:visibility="invisible" />
+    <ImageButton
+        android:id="@+id/bomba2"
+        android:layout_width="89.6dp"
+        android:layout_height="64.9dp"
+        android:src="@drawable/bomba1"
+        android:background="@drawable/fondo"
+        android:visibility="invisible" />
+    <ImageButton
+        android:id="@+id/bomba3"
+        android:layout_width="89.6dp"
+        android:layout_height="64.9dp"
+        android:src="@drawable/bomba1"
+        android:background="@drawable/fondo"
+        android:visibility="invisible" />
+    <ImageButton
+        android:id="@+id/bomba4"
+        android:layout_width="89.6dp"
+        android:layout_height="64.9dp"
+        android:src="@drawable/bomba1"
+        android:background="@drawable/fondo"
+        android:visibility="invisible" />
+    <ImageButton
+        android:id="@+id/bomba5"
+        android:layout_width="89.6dp"
+        android:layout_height="64.9dp"
+        android:src="@drawable/bomba1"
+        android:background="@drawable/fondo"
+        android:visibility="invisible" />
+    <ImageButton
+        android:id="@+id/bomba6"
+        android:layout_width="89.6dp"
+        android:layout_height="64.9dp"
+        android:src="@drawable/bomba1"
+        android:background="@drawable/fondo"
+        android:visibility="invisible" />
+    <ImageButton
+        android:id="@+id/bomba7"
+        android:layout_width="89.6dp"
+        android:layout_height="64.9dp"
+        android:src="@drawable/bomba1"
+        android:background="@drawable/fondo"
+        android:visibility="invisible" />
+    <ImageButton
+        android:id="@+id/bomba8"
+        android:layout_width="89.6dp"
+        android:layout_height="64.9dp"
+        android:src="@drawable/bomba1"
+        android:background="@drawable/fondo"
+        android:visibility="invisible" />
+    <ImageButton
+        android:id="@+id/bomba9"
+        android:layout_width="89.6dp"
+        android:layout_height="64.9dp"
+        android:src="@drawable/bomba1"
+        android:background="@drawable/fondo"
+        android:visibility="invisible" />
+    <ImageButton
+        android:id="@+id/bomba10"
+        android:layout_width="89.6dp"
+        android:layout_height="64.9dp"
+        android:src="@drawable/bomba1"
+        android:background="@drawable/fondo"
+        android:visibility="invisible" />
+</LinearLayout>
